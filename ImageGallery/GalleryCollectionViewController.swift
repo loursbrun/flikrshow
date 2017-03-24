@@ -94,6 +94,10 @@ class GalleryCollectionViewController: UICollectionViewController {
     
         
       
+        // Instance de FlickrService
+        FlickrService.sharedInstance
+        
+        
         
         
         // Configure the cell

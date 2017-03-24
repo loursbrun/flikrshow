@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224935BD1E855C9A00839256 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224935BC1E855C9A00839256 /* FlickrService.swift */; };
 		227C64991E850FBC00244015 /* ImageListe.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227C64981E850FBC00244015 /* ImageListe.plist */; };
 		227C649B1E85134C00244015 /* ImageListe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C649A1E85134C00244015 /* ImageListe.swift */; };
 		227E5CF31E8413C90060BC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E5CF21E8413C90060BC74 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224935BC1E855C9A00839256 /* FlickrService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
 		227C64981E850FBC00244015 /* ImageListe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageListe.plist; sourceTree = "<group>"; };
 		227C649A1E85134C00244015 /* ImageListe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageListe.swift; sourceTree = "<group>"; };
 		227E5CEF1E8413C90060BC74 /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +48,10 @@
 		224935B71E85540C00839256 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				227C649A1E85134C00244015 /* ImageListe.swift */,
+				227E5D061E8417330060BC74 /* ImageCollectionViewCell.swift */,
 				227C64981E850FBC00244015 /* ImageListe.plist */,
+				224935BC1E855C9A00839256 /* FlickrService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -55,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				227E5CF61E8413C90060BC74 /* Main.storyboard */,
+				227E5D081E8425F60060BC74 /* ImageDetailViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -62,6 +68,7 @@
 		224935B91E85542600839256 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				227E5D041E8415280060BC74 /* GalleryCollectionViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -69,6 +76,9 @@
 		224935BA1E85544A00839256 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				227E5CFE1E8413C90060BC74 /* Info.plist */,
+				227E5CF21E8413C90060BC74 /* AppDelegate.swift */,
+				227E5CFB1E8413C90060BC74 /* LaunchScreen.storyboard */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -105,13 +115,6 @@
 				224935B91E85542600839256 /* Controller */,
 				224935B81E85541D00839256 /* View */,
 				224935B71E85540C00839256 /* Model */,
-				227E5CF21E8413C90060BC74 /* AppDelegate.swift */,
-				227E5CFB1E8413C90060BC74 /* LaunchScreen.storyboard */,
-				227E5CFE1E8413C90060BC74 /* Info.plist */,
-				227E5D041E8415280060BC74 /* GalleryCollectionViewController.swift */,
-				227E5D061E8417330060BC74 /* ImageCollectionViewCell.swift */,
-				227E5D081E8425F60060BC74 /* ImageDetailViewController.swift */,
-				227C649A1E85134C00244015 /* ImageListe.swift */,
 			);
 			path = ImageGallery;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				227E5D071E8417330060BC74 /* ImageCollectionViewCell.swift in Sources */,
 				227E5CF31E8413C90060BC74 /* AppDelegate.swift in Sources */,
+				224935BD1E855C9A00839256 /* FlickrService.swift in Sources */,
 				227E5D051E8415280060BC74 /* GalleryCollectionViewController.swift in Sources */,
 				227E5D091E8425F60060BC74 /* ImageDetailViewController.swift in Sources */,
 				227C649B1E85134C00244015 /* ImageListe.swift in Sources */,
